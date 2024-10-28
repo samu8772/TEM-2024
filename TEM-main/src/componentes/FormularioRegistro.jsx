@@ -104,7 +104,7 @@ class FormularioRegistro extends React.Component {
                     <hr className="mb-4"></hr>
                     <Link to="/Pagina_Principal">
                         <button className="btn btn-outline-primary btn-lg btn-block" type="submit" onClick={() => this.peticionPost()} ><font style={{ marginRight: 'vertical-align: inherit' }} >Registrarme</font></button>
-                    </Link>
+                    </Link>  
                 </form>
             </div>
 
