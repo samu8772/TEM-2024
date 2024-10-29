@@ -6,21 +6,25 @@ function Contactanos() {
   return (
     <div className='Contactanos'>
       <Menupeq />
-      <div className='cont'>
+      <div className='contact'>
         <h1>Contactanos</h1>
         <img src={contacto} alt="imagen" width={450}/>
-        <div>
+        <hr />
+        <div className='divcontacto'>
           <h2>Correos de trabajo:</h2>
-          <p>Samuel Galeano Hincapié: samuel.galeano872@gmail.com</p>
-          <p>Samuel Zuluaga Maldonado: samu11zuluaga@gmail.com</p>
+          <p><b>Samuel Galeano Hincapié: </b>samuel.galeano872@gmail.com</p>
+          <p><b>Samuel David Gallo Forero: </b>samueldavidgallo28@gmail.com</p>
+          <p><b>Samuel Zuluaga Maldonado: </b>samu11zuluaga@gmail.com</p>
         </div>
-        <div>
+        <hr />
+        <div className='divcontacto'>
           <h2>Instagram:</h2>
-          <p>@TIMedellin</p>
+          <p><b>@TEMedellin_</b></p>
         </div>
-        <div>
+        <hr />
+        <div className='divcontacto'>
           <h2>PQRS y preguntas:</h2>
-          <p>Escríbenos al 3146702296 o al 3196030588</p>
+          <p><b>Escríbenos al 3146702296 - 3196030588 - 3226667671</b></p>
         </div>
       </div>
       

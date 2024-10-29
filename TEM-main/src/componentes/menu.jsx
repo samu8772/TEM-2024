@@ -8,7 +8,7 @@ function Menu() {
         <div className="container-fluid">
           <Link to='/Pagina_Principal' className="navbar-brand">
             <i>
-              Transportate En Medellin
+              Transpórtate En Medellin
             </i>
           </Link>
           <button
@@ -24,19 +24,29 @@ function Menu() {
           </button>
           <div className="collapse navbar-collapse"i id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <Link className="nav-link active" to="/Cursos">
-                  Cursos
+              <li>
+                <Link className="nav-link active" to="/Metro">
+                  Metro
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to="/perfil">
-                  Perfil
+                <Link className="nav-link active" to="/Solobus">
+                  Solobus
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" to="/Taxi">
+                  Taxi
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" to="/Circulares">
+                  Circulares
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link active" to="/">
-                  Cerrar Sesion
+                  Cerrar Sesión
                 </Link>
               </li>
             </ul>
@@ -61,12 +71,12 @@ function Menu() {
               ¡Bienvenidos!
             </strong>
           </div> 
-          <div className="card-body" style={{ backgroundColor: "#a161c9" }}>
+          <div className="card-body" style={{ backgroundColor: "#ffffff" }}>
             <h4 className="encabezado fst-italic">
-              Transportate con la mejor pagina web de servicios y ubicación online en todo Medellin
+              Transpórtate con la mejor página web de servicios y ubicación online en todo Medellin
             </h4>
             <p className="card-text">
-              Esta pagina cuenta con tecnologia de mapas para encontrar los precios,tarifas,rutas y ubicaciones de distintos metodos de transporte en todo medellin.
+              Esta página cuenta con tecnología de mapas para encontrar los precios, tarifas, rutas y ubicaciones de distintos métodos de transporte en todo Medellin.
             </p>
           </div>  
         </div>  

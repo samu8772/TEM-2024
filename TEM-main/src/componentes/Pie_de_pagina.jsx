@@ -7,46 +7,23 @@ function Pie_de_pagina(){
     <div className="footer">
       <div className="container fluid">
         <div className="row mx-auto">
+          <hr />
+          <h1 className="encabezado mt-5 pt-4">Transpórtate en Medellin</h1>
           <div className="text-center mx-auto">
             <div className='info-section'>
-            <h2>Como funcionamos</h2>
+            <h2>¿Cómo funcionamos?</h2>
             <p>Esta página utiliza un sistema avanzado de búsqueda y recopilación de información desde distintas páginas oficiales de medios de transporte para brindar una ruta, hora, ubicación y lugar de manera exacta para que puedas llegar seguro a tu destino bajo cualquier metodo de transporte.</p>
           </div>
-            <h2 className="encabezado mt-5 pt-4">Transportate en Medellin</h2>
-            <img src={si} alt="imagen" width={450}/>
-            <h4 className="encabezado">
-              Conocenos mas
-            </h4>
-            <p className="px-3">
-              <small>
-                contenido de la página
-              </small>
-              </p>
-              <section className="text-center pb-4">
-              <Link to="" className="btn btn-primary">Mas informacion</Link>
-              </section>
-              </div>
-              <div className="text-center mx-auto">
-              <h2 className="encabezado mt-3 pt-3">
-              <span className="text-primary">TEM Siempre te acompaña</span>
-              </h2>
-            <p className="px-3">
-              <small>
-                <strong>
-                  Sobre Nosotros
-                </strong>
-              </small>
-            </p>
-            <section className="text-center pb-4">
-              <Link to="/contactanos" className="btn btn-primary">
-                Contactanos
-              </Link>
-            </section>
-            <div id="copyright">
-              <hr/>
-              <p><small></small></p>
+            
+            <img class='medios' src={si} alt="imagen" width={450}/>
+            
+            
             </div>
-          </div>
+            <hr/>
+          <h3>¿Tienes dudas?</h3>
+          <p class='medios'>Escríbenos al 3146702296 - 3196030588 - 3226667671</p>
+          <h3>Nuestro Instagram:</h3>
+          <p>@TEMedellin_</p>
         </div>
       </div>
     </div>

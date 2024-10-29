@@ -5,6 +5,10 @@ import Contactanos from './paginas/contactanos'
 import PP from './paginas/paginaprincipal'
 import QS from './paginas/quienes_somos'
 import Registro from './paginas/registro'
+import Metro from './paginas/Metro'
+import Solobus from './paginas/Solobus'
+import Taxi from './paginas/Taxi'
+import Circulares from './paginas/Circulares'
 
 export default function App() {
   return (
@@ -17,6 +21,10 @@ export default function App() {
        <Route exact path='/Pagina_Principal' element={<PP/>}/>
        <Route exact path='/quienes_somos' element={<QS/>}/>
        <Route exact path='/registro' element={<Registro/>}/>
+       <Route exact path='/Metro' element={<Metro/>}/>
+       <Route exact path='/Solobus' element={<Solobus/>}/>
+       <Route exact path='/Taxi' element={<Taxi/>}/>
+       <Route exact path='/Circulares' element={<Circulares/>}/>
      </Routes>
    </Router> 
   );

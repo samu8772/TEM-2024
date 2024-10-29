@@ -8,7 +8,7 @@ function Menupeq() {
         <div className="container-fluid">
           <Link to="/" className="navbar-brand">
             <i>
-              Transportate En Medellin
+              Transpórtate En Medellin
             </i>
           </Link>
           <button
@@ -41,7 +41,7 @@ function Menupeq() {
               </li>
               <li>
                 <Link className="nav-link active" to="/contactanos">
-                  Contactanos
+                  Contáctanos
                 </Link>
               </li>
               <li className="nav-item">
