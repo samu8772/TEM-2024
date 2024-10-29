@@ -24,6 +24,11 @@ function Menu() {
           </button>
           <div className="collapse navbar-collapse"i id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li>
+                <Link className="nav-link active" to="/Pagina_Principal">
+                  Inicio
+                </Link>
+              </li>
               <li>
                 <Link className="nav-link active" to="/Metro">
                   Metro

@@ -82,7 +82,7 @@
   font-family: Arial, sans-serif;
 }
 
-/* Tarjeta de inicio de sesión */
+
 .login-card {
   background-color: #fff;
   padding: 40px;
@@ -93,7 +93,6 @@
   max-width: 400px;
 }
 
-/* Título y texto */
 .login-card h2 {
   color: #333;
   margin-bottom: 10px;
@@ -104,7 +103,6 @@
   margin-bottom: 30px;
 }
 
-/* Grupos de entrada */
 .input-group {
   margin-bottom: 20px;
   text-align: left;
@@ -131,7 +129,7 @@
   border-color: #3040fa;
 }
 
-/* Botón de inicio de sesión */
+
 .login-button {
   background-color: #3040fa;
   color: #fff;
@@ -149,7 +147,6 @@
   background-color: #3040fa;
 }
 
-/* Texto del pie */
 .footer-text {
   margin-top: 20px;
   font-size: 14px;
@@ -225,4 +222,48 @@
 
 .medios {
   margin-bottom: 30px;
+  text-align: center;
+}
+
+.circular {
+  margin-left: 25px;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 60px;
+}
+
+.circular h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.circular h2, h3 {
+  color: #000c96;
+}
+
+.circular1 {
+  margin-bottom: 50px;
+}
+
+.tax img {
+  margin-bottom: 40px;
+}
+
+.tax {
+  margin-left: 25px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.tax h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tax h5 {
+  margin-bottom: 20px;
+}
+
+.tax h2, h3, h5 {
+  color: #000c96;
 }

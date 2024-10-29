@@ -15,7 +15,7 @@ function Pie_de_pagina(){
             <p>Esta página utiliza un sistema avanzado de búsqueda y recopilación de información desde distintas páginas oficiales de medios de transporte para brindar una ruta, hora, ubicación y lugar de manera exacta para que puedas llegar seguro a tu destino bajo cualquier metodo de transporte.</p>
           </div>
             
-            <img class='medios' src={si} alt="imagen" width={450}/>
+            <img class='medios' src={si} alt="imagen medios de transporte" width={400}/>
             
             
             </div>
