@@ -9,7 +9,7 @@
   display:flex;
   flex-direction:column;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 .login-section,
@@ -60,8 +60,6 @@
 }
 
 
-}
-
 .footer .container-fluid {
   background-color: #ccc;
   padding:20px;
@@ -73,4 +71,96 @@
 
 .qs {
   margin-top:30px;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #3040fa, #182848);
+  font-family: Arial, sans-serif;
+}
+
+/* Tarjeta de inicio de sesión */
+.login-card {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Título y texto */
+.login-card h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.login-card p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Grupos de entrada */
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #3040fa;
+}
+
+/* Botón de inicio de sesión */
+.login-button {
+  background-color: #3040fa;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #3040fa;
+}
+
+/* Texto del pie */
+.footer-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.footer-text a {
+  color: #3040fa;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
 }

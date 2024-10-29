@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Menu() {
   return (
-    <div className="header" style= {{backgroundColor:"#000eb8"}}>
+    <div className="header" style= {{backgroundColor:"#3040fa"}}>
       <nav className="navbar navbar-expand-lg bg-body-tertiary" style={{margin: "20px"}}>
         <div className="container-fluid">
           <Link to='/Pagina_Principal' className="navbar-brand">

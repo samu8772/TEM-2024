@@ -1,13 +1,13 @@
 import React from "react";
-import Designer from "../imagenes/Designer.jpeg";
+import LOGO from "../imagenes/LOGO.png";
 import { Link } from "react-router-dom";
 
 function Portada() {
   return (
     <div className="container" style={{ backgroundColor: "#ffffff"}}>
-      <div className="row mt-3">
+      <div className="row mt-5">
         <img
-          src={Designer}
+          src={LOGO}
           className="rounded mx-auto d-block"
           alt="logo"
           style={{ maxWidth: "600px" }}

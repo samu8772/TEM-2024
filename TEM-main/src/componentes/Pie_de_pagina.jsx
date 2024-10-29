@@ -8,6 +8,10 @@ function Pie_de_pagina(){
       <div className="container fluid">
         <div className="row mx-auto">
           <div className="text-center mx-auto">
+            <div className='info-section'>
+            <h2>Como funcionamos</h2>
+            <p>Esta página utiliza un sistema avanzado de búsqueda y recopilación de información desde distintas páginas oficiales de medios de transporte para brindar una ruta, hora, ubicación y lugar de manera exacta para que puedas llegar seguro a tu destino bajo cualquier metodo de transporte.</p>
+          </div>
             <h2 className="encabezado mt-5 pt-4">Transportate en Medellin</h2>
             <img src={si} alt="imagen" width={450}/>
             <h4 className="encabezado">
